@@ -1,0 +1,32 @@
+table{
+    text-align: right;
+    width: 100%;
+    border-collapse: collapse;
+}
+td,th{
+    
+    min-width: 80px;
+}
+tbody tr:nth-child(even){
+    background-color: rgb(230, 234, 236);
+}
+ thead th{
+    height: 50px;
+}
+thead tr{
+    
+    background-color: rgb(145, 145, 241);
+    color: black;
+}
+th{
+    border: 0;
+}
+.vonal{
+    border-right:  1px solid black;
+}
+@media screen and (max-width:500px) {
+    article{
+        overflow-x: scroll;
+    }
+    
+}
